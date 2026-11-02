@@ -1,0 +1,20 @@
+# ---- Day 1: install this now ----
+fastapi[standard]
+
+# ---- Week 1-2: database (install when we reach them) ----
+sqlalchemy
+alembic
+psycopg[binary]
+pydantic-settings
+
+# ---- Week 2: auth + testing ----
+pyjwt
+bcrypt
+pytest
+httpx
+
+# ---- Week 3-4: agents (don't install yet) ----
+langgraph
+langgraph-checkpoint-postgres
+langchain-groq
+pgvector
